@@ -28,30 +28,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'RecipeBoxHP.png',
+    title: 'Recipe Box',
+    info: 'Save your recipes in an online database',
+    info2: 'Node, Bootstrap, Express, MongoDB',
+    url: 'https://fast-mountain-43531.herokuapp.com/index.html',
+    repo: 'https://github.com/Kaleighspurio/Project2-Recipe-Box', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'Homepage.jpg',
+    title: 'Project-1-Professor-Planet',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'ttps://github.com/lalaggv2/Project-1-Professor-Planet',
+    repo: 'https://bowdwin.github.io/Project-1/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'Workout2.png',
+    title: 'Workout Tracker',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://workout-tracker2020nh.herokuapp.com/?id=5f2751caa0b2ac0017ec567e',
+    repo: 'https://github.com/lalaggv2/workoutrack', // if no repo, the button will not show up
   },
 ];
 

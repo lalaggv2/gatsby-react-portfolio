@@ -43,10 +43,7 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                        </p>
+                        <p>{info || 'Node, Bootstrap, Express, MongoDB'}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
@@ -81,7 +78,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        href={url || '../images/RecipeBox/RecipeBoxHP.png'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
