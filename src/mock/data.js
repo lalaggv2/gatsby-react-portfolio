@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'LAGG', // e.g: 'Name | Developer'
+  title: '', // e.g: 'Name | Developer'
   lang: 'EN, ES', // e.g: en, es, fr, jp
-  description: 'I am glad you are here', // e.g: Welcome to my website
+  description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
   name: 'L. Angela Gutierrez',
-  subtitle: 'I am ready to transition into Web Development and Design',
+  subtitle: 'Creating a better experience',
   cta: '',
 };
 
@@ -39,8 +39,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'homepage.jpg',
     title: 'Project-1-Professor-Planet',
-    info: 'Professor Planet is here to teach you about the solar system. Give it a try!',
-    info2: 'Materialize, API calls',
+    info: '',
+    info2: '',
     url: 'ttps://github.com/lalaggv2/Project-1-Professor-Planet',
     repo: 'https://bowdwin.github.io/Project-1/', // if no repo, the button will not show up
   },
@@ -48,21 +48,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'Workout2.png',
     title: 'Workout Tracker',
-    info:
-      'Keep track of your workout, either cardio or resistance. Build up and see the charts denoting your progress!!!',
-    info2: 'JavaScript, CSS, HTML, MongoDB, Node.js, Express',
+    info: '',
+    info2: '',
     url: 'https://workout-tracker2020nh.herokuapp.com/?id=5f2751caa0b2ac0017ec567e',
     repo: 'https://github.com/lalaggv2/workoutrack', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'Budget1.png',
-    title: 'Offline Budget Tracker',
-    info:
-      'Keep track of your expenses even when offline, and be able to update them when back online to the database',
-    info2: 'Node, Bootstrap, Express, IndexedDB, PWA',
-    url: 'https://fast-mountain-43531.herokuapp.com/index.html',
-    repo: 'https://github.com/Kaleighspurio/Project2-Recipe-Box', // if no repo, the button will not show up
   },
 ];
 
